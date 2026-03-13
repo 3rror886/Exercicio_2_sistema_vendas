@@ -1,0 +1,20 @@
+Frase do dia: "A escuridão é igual à luz do dia? Os pecadores são iguais aos justos?
+Se você nasce fraco, a qual deus você recorre para o consolo?" -Sunday(Honkai Star Rail)
+
+Entidades:
+
+Cliente: aquele que compra o Produto
+Produto: aquele que é vendido
+Pedido: o ato de encomendar um Produto
+
+Atributos:
+
+Cliente: Código do Cliente, Nome, Cpf, Email
+Produto: Código, Nome, Preço, Quantida em estoque
+Pedido: Número do Pedido, Data, Valor Total
+
+Relaciopnamentos e cardinalidade:
+
+Cliente Pedido: Relacionamento um para muitos / 1:N
+Pedido Produto: Relacionamento muitos para muitos / N:N (um pedido pde possuir muitos produtos, porém podem não aver produtos disponiveis)
+
